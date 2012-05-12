@@ -1,0 +1,15 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+	<servlet>
+		<servlet-name>IndexServlet</servlet-name>
+		<servlet-class>tutorial.IndexServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexServlet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/error.jsp</location>
+	</error-page>
+</web-app>
